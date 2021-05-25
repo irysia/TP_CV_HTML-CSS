@@ -1,0 +1,23 @@
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+/* Styles */
+  .container{
+    width: 100%;
+    padding: 0px 15px;
+  }
+  header .container{
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+  header img{
+    width: 50%;
+  }
+
+  section,aside{
+    float: none;
+    width: 100%;
+  }
+.exp-logo{
+    display: none;
+  }
+}
